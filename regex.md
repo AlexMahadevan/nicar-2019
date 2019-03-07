@@ -50,3 +50,12 @@ $ = Grabs each group you're looking for.
 Now copy from regex101 and paste it back into Excel! 
 
 "It's so beautiful!"
+
+You can also do all of this in a text editor, like VisualStudioCode. Just put the regex expression into find, and the replace regex expression into the replace 
+
+What if you want to replace a period with a comma.
+
+"You have to account for it, somehow."
+
+
+
