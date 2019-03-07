@@ -35,9 +35,18 @@ NOTE: Checkout Socrata.
 Tip: Keep Regex 101 in PHP so the colors remain useful.
 
 Keep an eye on matches as you build a regex. If you lose some matches there is a problem with the data you need to look at.
-i.e. Bee Cave screwed up our firs regex attempt because there is a space. So we add square brackets and a space so we can capture all words AND spaces.
+i.e. Bee Cave screwed up our firss regex attempt because there is a space. So we add square brackets and a space so we can capture all words AND spaces.
 
+Asterisk: If you find it keep going, if youdon't fint it keep goig
+Plus sign, you have to find this
 
+Remember, brackets let us grab more than one thing.
 
+What now?
 
+Now go into subsitution. Here, we'll write another regex! 
+$ = Grabs each group you're looking for. 
 
+Now copy from regex101 and paste it back into Excel! 
+
+"It's so beautiful!"
