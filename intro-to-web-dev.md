@@ -16,12 +16,6 @@
 - CSS = Cascading style sheets
     - Define all of the style attributes in one go, so you don't have to worry about styling every piece of HTML
 
-
-interesting to look at websites of the powerful, local reporters, because they have naming conventions, original names, etc. in the soure code.
-
-check out W3 schools templates
-
-CSS: cascading stylesheets
 - the closer you are to your code and more specific you are means 
 
 
@@ -32,5 +26,6 @@ CSS: cascading stylesheets
 
 - Example code
     - html5up.net
+    - W3 schools
 
 

@@ -4,46 +4,51 @@
 
 Slides and data here: https://github.com/underthecurve/NICAR
 
-* Open source data promotes community and helps alleviate anxiety about getting something wrong (double and triple check)
+- Why publish your data in R?
+    - Open source data promotes community and helps alleviate anxiety about getting something wrong (double and triple check)
+    - Brings readers into the fold
+    - Allows you to fact check with academics
 
-* Brings readers into the fold
+#### File organization management
 
-#### File orgaization management
+<p>There are lot's of opinions on how you should manage your workflow and organize your project files.</p>
 
-Example:
+- Best practices
+    - Create a separate folder for each project
+    - Have raw data in input sub folder
+    - Cleaned data as the output
+    - Code and analysis in code or documentation folder
 
-Let's look at Census data from Newport Beach.
+PRO-TIP: Bottom left of main window — use that little drop down to cycle through the chunks and see where you are in the code!
 
-File organization: Lot's of opinions:
+#### Random tips
 
-Create a separate folder for each project. Exampe: the NICAR folder. Have raw data in input sub folder. Cleaned data as the output. Processing and analysis in code or documentation folder.
+- Rpubs: Make your code public and shareable.
 
-Bottom left of main window: Use that little drop down to cycle through the chunks and see where you are in the code.
+- Knitting: "Knitting together code and words within the Tidyverse!"
 
-Rpubs: make your code public and shareable.
+- Kable: Will give a nice formatted table when you knit
 
-Knitting: "knitting together code and words within the Tidyverse"
+- Use variant: github_markdown for a raw markdown file. This will render pretty well on Github!
 
-Kable: will give a nice formatted table when you knit
+- purl() will convert your .Rmd into a raw R documentation.
 
-Use variant: github_markdown for a raw markdown file. This will render pretty well on Github!
+- nbviewer: Create a github repo and use nbviewer to render it pretty well. Github can take forever to render long/complicated code.
 
-purl() will concert your .Rmd into a raw R documentation.
+#### Sharing your work
 
-nbviewer: Create a github repo and use nbviewer to render it pretty well. Github can take forever to render long/complicated code.
+<p>There are three main ways to share your work.</p>
 
-Three ways of sharing your work.
+- Straight up code
+    - Pro: Easy — all you need is r
+    - Con: Not many people can read or understand it
+    - Con: Not a lot of context
 
-Straight up code
+- Rmarkdown
+    - Pro: Can convert it into a lot of formats for your colleagues.
+    - Pro: Works with Rstudio
+    - Con: Tough to do it while you're actually coding
 
-pros: easy all you need is r
-
-con: not many people can read or understand it
-Not a lot of context.
-
-Rmarkdown
-
-Pros: Can convert it into a lot of formats for your colleagues. 
-
-Cons: Tought to do it while you're actually coding
-
+- Jupyter notebook
+    - Pro: Can intersperse prose with code to elegantly explain what is happening wih your code
+    - Con: Must know Git and Github
