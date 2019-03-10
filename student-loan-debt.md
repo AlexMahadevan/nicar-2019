@@ -98,4 +98,13 @@ how to interview students?
 - the important thing is getting a representative spread of people, there are students who dont pay a lot for school and realize not all student have this crazy problem
 - 
 
+college scorecard: education department is aware that 
+
+income sharing is in resposne to increased regulation, so many different opportunities for how you pay back your lon
+
+- moddys credt alerts
+
+- emma is a database allows you to look up any bond thats out there
+
+
 

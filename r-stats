@@ -1,0 +1,21 @@
+### R stats
+
+essentially, all mofels are wrong but some are useful
+
+nothing wrong with linear regression, but might be giving answers to the wrong questions
+
+regularlinear: each data point isindependent of eachother
+what f we have multiple dsta points? school, hospital, location, multiple death rates for one hospital
+
+individual trends may cntradict trends, 
+
+gees
+
+capture concepts of randome intercepts and random slopes
+
+happy little data analysis: regular regression distinct ne
+
+gees: can blend colors, rrealism
+
+lme() and lmer() do something similar, but need stronger asumptions, stick to gee()
+
